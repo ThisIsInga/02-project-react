@@ -1,0 +1,17 @@
+.dialogs{
+    display: flex;
+}
+
+.users{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(137, 162, 214);
+}
+
+.messages{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(34, 89, 207);
+}
