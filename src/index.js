@@ -11,10 +11,27 @@ let posts = [
   {textPost:'HEY', likes:'10', dislikes:'0'},
 ];
 
+let names = [
+  {id: 1, name: 'Natasha'},
+  {id: 2, name: 'Sasha'},
+  {id: 3, name: 'Ulia'},
+  {id: 4, name: 'Petrov'},
+  {id: 5, name: 'Vadim'},
+];
+
+let messages = [
+  {message: 'Hi'},
+  {message: 'Andrey'},
+  {message: 'How is your name?'},
+  {message: 'Yo! Inga!'},
+  {message: 'Yo!'},
+  {message: 'Yo!'}, 
+];
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App posts={posts}/>
+    <App posts={posts} names={names} messages={messages}/>
   </React.StrictMode>
 );
 

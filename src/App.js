@@ -15,7 +15,7 @@ const App = (props) => {
         <NavBar />
         <Routes>
           <Route path='/news' element={<News posts={props.posts}/>} />
-          <Route path='/dialogs/*' element={<Dialogs />} />
+          <Route path='/dialogs/*' element={<Dialogs names={props.names} messages={props.messages}/>} />
         </Routes>
        
         <Menu />
